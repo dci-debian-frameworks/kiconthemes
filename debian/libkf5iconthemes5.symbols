@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5IconThemes.so.4 libkf5iconthemes4 #MINVER#
+libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _Z10BarIconSetRK7QStringi@Base 4.96.0
  _Z11DesktopIconRK7QStringiiRK11QStringList@Base 4.96.0
  _Z11MainBarIconRK7QStringiiRK11QStringList@Base 4.96.0
