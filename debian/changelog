@@ -1,7 +1,11 @@
 kiconthemes (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream alpha release
   * Rename library package for soname 5
+
+  [ Scarlett Clark ]
+  * Fix missing file 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:20:30 +0000
 
