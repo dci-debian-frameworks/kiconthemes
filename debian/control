@@ -30,14 +30,14 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Support for icon themes.
  Library to use/access icon themes in Qt. These classes
  are used by the iconloader but can be used by others too.
-Multi-Arch: allowed
+Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5iconthemes5-dbg
 Priority: extra
 Section: debug
 Architecture: any
-Multi-Arch: allowed
+Multi-Arch: same
 Depends: libkf5iconthemes5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for kiconthemes
  Library to use/access icon themes in Qt. These classes
