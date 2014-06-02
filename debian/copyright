@@ -2,7 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: kiconthemes
 Source: https://projects.kde.org/projects/frameworks/kiconthemes
 
-Files: *        
+Files: *
 Copyright: © 2000 Geert Jansen <jansen@kde.org>
            © 2002 Carsten Pfeiffer <pfeiffer@kde.org>
            © 2000 Kurt Granroth <granroth@kde.org>
@@ -12,7 +12,7 @@ Copyright: © 2000 Geert Jansen <jansen@kde.org>
            © 2007 Daniel M. Duley <daniel.duley@verizon.net>
            © 2006 Hamish Rodda <rodda@kde.org>
            © 2008 David Faure <faure@kde.org>
-           © 2010 Michael Pyne <mpyne@kde.org>         
+           © 2010 Michael Pyne <mpyne@kde.org>
 License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -29,10 +29,10 @@ License: LGPL-2
  Boston, MA 02110-1301, USA.
  .
  On Debian systems, the complete text of the GNU Library General
- Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2". 
-  
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
 Files: autotests/kiconloader_unittest.cpp
-Copyright: 2008 David Faure <faure@kde.org>        
+Copyright: 2008 David Faure <faure@kde.org>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public

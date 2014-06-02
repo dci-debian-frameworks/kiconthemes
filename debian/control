@@ -5,17 +5,17 @@ Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
 XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
-               extra-cmake-modules (>= 0.0.13),
-               libkf5auth-dev (>= 4.99.0),
-               libkf5codecs-dev (>= 4.99.0),
-               libkf5config-dev (>= 4.99.0),
-               libkf5configwidgets-dev (>= 4.99.0),
-               libkf5coreaddons-dev (>= 4.99.0),
-               libkf5guiaddons-dev (>= 4.99.0),
-               libkf5i18n-dev (>= 4.99.0),
-               libkf5itemviews-dev (>= 4.99.0),
-               libkf5kjs-dev (>= 4.99.0),
-               libkf5widgetsaddons-dev (>= 4.99.0),
+               extra-cmake-modules (>= 0.0.14),
+               libkf5auth-dev (>= 4.100.0),
+               libkf5codecs-dev (>= 4.100.0),
+               libkf5config-dev (>= 4.100.0),
+               libkf5configwidgets-dev (>= 4.100.0),
+               libkf5coreaddons-dev (>= 4.100.0),
+               libkf5guiaddons-dev (>= 4.100.0),
+               libkf5i18n-dev (>= 4.100.0),
+               libkf5itemviews-dev (>= 4.100.0),
+               libkf5kjs-dev (>= 4.100.0),
+               libkf5widgetsaddons-dev (>= 4.100.0),
                libqt5svg5-dev,
                openbox,
                pkg-kde-tools,
@@ -26,12 +26,13 @@ Homepage: https://projects.kde.org/projects/frameworks/kiconthemes
 Package: libkf5iconthemes-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5iconthemes5 (= ${binary:Version}), ${misc:Depends},
- libkf5config-dev,
- libkf5i18n-dev,
- libkf5itemviews-dev,
- libkf5widgetsaddons-dev,
- qtbase5-dev
+Depends: libkf5config-dev,
+         libkf5i18n-dev,
+         libkf5iconthemes5 (= ${binary:Version}),
+         libkf5itemviews-dev,
+         libkf5widgetsaddons-dev,
+         qtbase5-dev,
+         ${misc:Depends}
 Description: development files for kiconthemes
  Library to use/access icon themes in Qt. These classes
  are used by the iconloader but can be used by others too.
