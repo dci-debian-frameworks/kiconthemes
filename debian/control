@@ -23,6 +23,15 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kiconthemes
 
+Package: libkf5iconthemes-bin
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Support for icon themes
+ Library to use/access icon themes in Qt. These classes
+ are used by the iconloader but can be used by others too.
+ .
+ This package contains runtime binaries.
+
 Package: libkf5iconthemes-dev
 Section: libdevel
 Architecture: any
@@ -43,6 +52,7 @@ Package: libkf5iconthemes5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends},
  libkf5iconthemes-data (= ${source:Version})
+Recommends: libkf5iconthemes-bin (= ${binary:Version})
 Description: Support for icon themes.
  Library to use/access icon themes in Qt. These classes
  are used by the iconloader but can be used by others too.
