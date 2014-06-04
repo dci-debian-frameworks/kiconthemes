@@ -7,6 +7,13 @@ kiconthemes (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Bump depends versions
   * Bump depends versions
 
+  [ Harald Sitter ]
+  * Add libkf5iconthemes-data and add localization to it
+  * Update libkf5iconthemes5.symbols
+  * Remove incorrect and useless libdevel section from libkf5iconthemes5
+  * Add libkf5iconthemes5.lintian-overrides
+    - binary-without-manpage usr/bin/kiconfinder5
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:39:43 +0100
 
 kiconthemes (4.99.0-0ubuntu1) trusty; urgency=medium
