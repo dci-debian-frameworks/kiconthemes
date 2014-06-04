@@ -5,7 +5,6 @@ kiconthemes (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump depends versions
-  * Bump depends versions
 
   [ Harald Sitter ]
   * Add libkf5iconthemes-data and add localization to it
