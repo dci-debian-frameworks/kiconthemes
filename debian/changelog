@@ -15,6 +15,7 @@ kiconthemes (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Add libkf5iconthemes5.lintian-overrides
     - binary-without-manpage usr/bin/kiconfinder5
   * Add libkf5iconthemes-bin and move kiconfinder5 from libkf5iconthemes5 to it
+    + libkf5iconthemes5 recommends libkf5iconthemes-bin
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:39:43 +0100
 
