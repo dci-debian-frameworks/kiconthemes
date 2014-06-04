@@ -9,6 +9,7 @@ kiconthemes (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Harald Sitter ]
   * Add libkf5iconthemes-data and add localization to it
+    + Make libkf5iconthemes5 depend on it
   * Update libkf5iconthemes5.symbols
   * Remove incorrect and useless libdevel section from libkf5iconthemes5
   * Add libkf5iconthemes5.lintian-overrides
