@@ -57,7 +57,6 @@ Description: Support for icon themes.
  Library to use/access icon themes in Qt. These classes
  are used by the iconloader but can be used by others too.
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: libkf5iconthemes-data
 Architecture: all
