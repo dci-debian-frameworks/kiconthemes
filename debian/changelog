@@ -1,3 +1,9 @@
+kiconthemes (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Initial stable upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:36:26 +0200
+
 kiconthemes (4.100.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
