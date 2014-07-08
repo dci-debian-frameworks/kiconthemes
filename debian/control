@@ -22,6 +22,8 @@ Build-Depends: cmake,
                qtbase5-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kiconthemes
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kiconthemes
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kiconthemes
 
 Package: libkf5iconthemes-bin
 Architecture: any
