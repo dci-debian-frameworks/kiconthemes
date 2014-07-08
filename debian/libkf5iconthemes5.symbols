@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64
+# SymbolsHelper-Confirmed: 5.0.0 i386
 libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _Z10BarIconSetRK7QStringi@Base 4.96.0
  _Z11DesktopIconRK7QStringiiRK11QStringList@Base 4.96.0
@@ -16,8 +16,8 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _ZN10KIconTheme24assignIconsToContextMenuENS_12ContextMenusE5QListIP7QActionE@Base 4.96.0
  _ZN10KIconTheme4listEv@Base 4.96.0
  _ZN10KIconTheme7currentEv@Base 4.96.0
- _ZN10KIconThemeC1ERK7QStringS2_@Base 4.96.0
- _ZN10KIconThemeC2ERK7QStringS2_@Base 4.96.0
+ _ZN10KIconThemeC1ERK7QStringS2_S2_@Base 5.0.0
+ _ZN10KIconThemeC2ERK7QStringS2_S2_@Base 5.0.0
  _ZN10KIconThemeD1Ev@Base 4.96.0
  _ZN10KIconThemeD2Ev@Base 4.96.0
  _ZN11KIconButton11iconChangedERK7QString@Base 4.96.0
@@ -110,7 +110,7 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _ZN11KIconLoader25iconLoaderSettingsChangedEv@Base 4.96.0
  _ZN11KIconLoader6globalEv@Base 4.96.0
  _ZN11KIconLoader7unknownEv@Base 4.96.0
- _ZN11KIconLoader9addAppDirERK7QString@Base 4.96.0
+ _ZN11KIconLoader9addAppDirERK7QStringS2_@Base 5.0.0
  _ZN11KIconLoaderC1ERK7QStringRK11QStringListP7QObject@Base 4.96.0
  _ZN11KIconLoaderC2ERK7QStringRK11QStringListP7QObject@Base 4.96.0
  _ZN11KIconLoaderD0Ev@Base 4.96.0
