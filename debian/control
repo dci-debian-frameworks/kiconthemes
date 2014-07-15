@@ -17,7 +17,6 @@ Build-Depends: cmake,
                libkf5kjs-dev (>= 5.0.0),
                libkf5widgetsaddons-dev (>= 5.0.0),
                libqt5svg5-dev,
-               openbox,
                pkg-kde-tools,
                qtbase5-dev
 Standards-Version: 3.9.5
@@ -52,8 +51,9 @@ Description: development files for kiconthemes
 
 Package: libkf5iconthemes5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends},
- libkf5iconthemes-data (= ${source:Version})
+Depends: libkf5iconthemes-data (= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: libkf5iconthemes-bin (= ${binary:Version})
 Description: Support for icon themes.
  Library to use/access icon themes in Qt. These classes

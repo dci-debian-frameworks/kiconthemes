@@ -1,0 +1,5 @@
+Tests: testsuite
+Depends: @builddeps@, build-essential,
+         xvfb, xauth, dbus-x11, openbox,
+         oxygen-icon-theme
+Restrictions: rw-build-tree
