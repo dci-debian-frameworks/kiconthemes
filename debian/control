@@ -51,6 +51,7 @@ Description: development files for kiconthemes
 
 Package: libkf5iconthemes5
 Architecture: any
+Multi-Arch: same
 Depends: libkf5iconthemes-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -58,7 +59,6 @@ Recommends: libkf5iconthemes-bin (= ${binary:Version})
 Description: Support for icon themes.
  Library to use/access icon themes in Qt. These classes
  are used by the iconloader but can be used by others too.
-Multi-Arch: same
 
 Package: libkf5iconthemes-data
 Architecture: all
