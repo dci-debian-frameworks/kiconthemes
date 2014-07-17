@@ -14,7 +14,6 @@ Copyright: © 2000 Geert Jansen <jansen@kde.org>
            © 2006 Hamish Rodda <rodda@kde.org>
            © 2008 David Faure <faure@kde.org>
            © 2010 Michael Pyne <mpyne@kde.org>
-             2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: LGPL-2
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -35,6 +34,7 @@ License: LGPL-2
 
 Files: autotests/kiconloader_unittest.cpp
 Copyright: 2008 David Faure <faure@kde.org>
+           2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
