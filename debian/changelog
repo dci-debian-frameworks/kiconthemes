@@ -1,4 +1,4 @@
-kiconthemes (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+kiconthemes (5.1.0-0ubuntu1) utopic; urgency=medium
 
   [ Rohan Garg ]
   * Make sure we add the XS-Testsuite field to debian/control
@@ -13,7 +13,7 @@ kiconthemes (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * New upstream release
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:50:57 -0700
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:29:44 +0200
 
 kiconthemes (5.0.0-0ubuntu1) utopic; urgency=medium
 
