@@ -1,3 +1,3 @@
 version=3
-http://download.kde.org/unstable/frameworks/([\d\.]*)/kiconthemes-(.*)\.tar\.xz
-http://download.kde.org/stable/frameworks/([\d\.]*)/kiconthemes-(.*)\.tar\.xz
+http://download.kde.org/unstable/frameworks/([\d.]+)/kiconthemes-([\d.]+)\.tar\.xz
+http://download.kde.org/stable/frameworks/([\d.]+)/kiconthemes-([\d.]+)\.tar\.xz
