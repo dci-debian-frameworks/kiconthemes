@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.8.0 amd64
+# SymbolsHelper-Confirmed: 5.8.0+git20150314.0553+15.04 amd64 i386
 libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _Z10BarIconSetRK7QStringi@Base 4.96.0
  _Z11DesktopIconRK7QStringiiRK11QStringList@Base 4.96.0
@@ -46,6 +46,7 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _ZN11KIconButtonD2Ev@Base 4.96.0
  _ZN11KIconDialog10openDialogEv@Base 4.96.0
  _ZN11KIconDialog10showDialogEv@Base 4.96.0
+ _ZN11KIconDialog11eventFilterEP7QObjectP6QEvent@Base 5.8.0+git20150314.0553+15.04
  _ZN11KIconDialog11newIconNameERK7QString@Base 4.96.0
  _ZN11KIconDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN11KIconDialog11qt_metacastEPKc@Base 4.96.0
