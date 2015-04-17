@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.0 i386
+# SymbolsHelper-Confirmed: 5.8.0+git20150317.1746 amd64 i386
 libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _Z10BarIconSetRK7QStringi@Base 4.96.0
  _Z11DesktopIconRK7QStringiiRK11QStringList@Base 4.96.0
