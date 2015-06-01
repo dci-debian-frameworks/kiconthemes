@@ -1,6 +1,1 @@
-# This is using a very global pattern because otherwise the CI systems
-# have trouble mangling it since presently they do not actually contain l10n
-# but this package contains locale/en_US/kf5_entry.desktop coming from the
-# source, so the CI systems cannot blanket remove all locale paths from install
-# or they'd break this.
-usr/share/locale/*
+usr/share/locale/*/*/kiconthemes5.mo
