@@ -31,19 +31,11 @@ Description: Support for icon themes
 Package: libkf5iconthemes-dev
 Section: libdevel
 Architecture: any
-<<<<<<< HEAD
-Depends: libkf5configwidgets-dev (>= 5.10.0),
-         libkf5i18n-dev (>= 5.10.0),
-         libkf5iconthemes5 (= ${binary:Version}),
-         libkf5itemviews-dev (>= 5.10.0),
-         libkf5widgetsaddons-dev (>= 5.10.0),
-=======
 Depends: libkf5configwidgets-dev (>= 5.11.0~),
          libkf5i18n-dev (>= 5.11.0~),
          libkf5iconthemes5 (= ${binary:Version}),
          libkf5itemviews-dev (>= 5.11.0~),
          libkf5widgetsaddons-dev (>= 5.11.0~),
->>>>>>> master
          qtbase5-dev (>= 5.4),
          ${misc:Depends}
 Description: development files for kiconthemes
