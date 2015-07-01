@@ -1,7 +1,13 @@
-kiconthemes (5.10.0-0ubuntu1) wily; urgency=medium
+kiconthemes (5.11.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.10.0).
+  * New upstream release (5.11.0).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 28 Jun 2015 16:02:29 +0200
+
+kiconthemes (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream release
@@ -99,7 +105,7 @@ kiconthemes (5.1.0-0ubuntu1) utopic; urgency=medium
   * Make sure we add the XS-Testsuite field to debian/control
 
   [ Scarlett Clark ]
-  * Update copyright to match licensing to source 
+  * Update copyright to match licensing to source
 
   [ José Manuel Santamaría Lema ]
   * Update libraries *.install paths so a soname bump doesn't go
