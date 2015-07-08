@@ -1,3 +1,16 @@
+kiconthemes (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Vivid backport
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 08 Jul 2015 08:20:04 -0700
+
+kiconthemes (5.10.0-0ubuntu1) wily; urgency=medium
+
+ [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 28 Jun 2015 16:02:29 +0200
+
 kiconthemes (5.11.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
