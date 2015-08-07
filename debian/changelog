@@ -8,12 +8,13 @@ kiconthemes (5.12.0-0ubuntu1) wily; urgency=medium
 
   * New upstream release
   * Fix merge, remove unused broken backport.
+  * Vivid backports. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:31:06 +0200
 
 kiconthemes (5.10.0-0ubuntu1) wily; urgency=medium
 
- [ Jonathan Riddell ]
+  [ Jonathan Riddell ]
   * New upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 28 Jun 2015 16:02:29 +0200
