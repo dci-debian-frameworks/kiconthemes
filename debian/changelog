@@ -1,3 +1,15 @@
+kiconthemes (5.16.0-1) unstable; urgency=medium
+
+  * New upstream release (5.16.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:54 +0100
+
+kiconthemes (5.15.0-1) unstable; urgency=medium
+
+  * New upstream release (5.15.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:07 +0200
+
 kiconthemes (5.15.0-0ubuntu2) xenial; urgency=medium
 
   * Fix autopackagetests by adding allow-stderr to the requirements.
@@ -14,17 +26,35 @@ kiconthemes (5.15.0-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:49:45 +0100
 
+kiconthemes (5.14.0-1) unstable; urgency=medium
+
+  * New upstream release (5.14.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:48:27 +0200
+
 kiconthemes (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:19:15 +0100
 
+kiconthemes (5.13.0-1) unstable; urgency=medium
+
+  * New upstream release (5.13.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 23:38:33 +0200
+
 kiconthemes (5.13.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:08:53 +0200
+
+kiconthemes (5.12.0-1) unstable; urgency=medium
+
+  * New upstream release (5.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:43:13 +0200
 
 kiconthemes (5.12.0-0ubuntu1) wily; urgency=medium
 
