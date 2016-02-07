@@ -64,15 +64,3 @@ Description: Support for icon themes.
  are used by the iconloader but can be used by others too.
  .
  This package contains the data files.
-
-Package: libkf5iconthemes5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Multi-Arch: same
-Depends: libkf5iconthemes5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for kiconthemes
- Library to use/access icon themes in Qt. These classes
- are used by the iconloader but can be used by others too.
- .
- Contains debug symbols for kiconthemes.
