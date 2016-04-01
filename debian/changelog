@@ -1,6 +1,6 @@
-kiconthemes (5.20.0-1~1.gbpd4f2ea) UNRELEASED; urgency=medium
+kiconthemes (5.20.0-1~2.gbpdfa583) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d4f2ea50526c74913d75fe15dd213838d480d8e0 **
+  ** SNAPSHOT build @dfa583dd78163f8b9e000ac99fb7401ddc9366e0 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -12,8 +12,9 @@ kiconthemes (5.20.0-1~1.gbpd4f2ea) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:19:25 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:19:19 +0200
 
 kiconthemes (5.19.0-1) experimental; urgency=medium
 
