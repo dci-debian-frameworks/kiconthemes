@@ -1,6 +1,6 @@
-kiconthemes (5.20.0-1~3.gbp94c60c) UNRELEASED; urgency=medium
+kiconthemes (5.21.0-1~1.gbp454818) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @94c60c2c6916566f4c55064e839588757fdbffdd **
+  ** SNAPSHOT build @45481856bd0e753dc0414fea1ac06494288d269c **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +14,14 @@ kiconthemes (5.20.0-1~3.gbp94c60c) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:19:31 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:19:20 +0200
 
 kiconthemes (5.19.0-1) experimental; urgency=medium
 
