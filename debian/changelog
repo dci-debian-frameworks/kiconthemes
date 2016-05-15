@@ -1,3 +1,11 @@
+kiconthemes (5.22.0-1~1.gbp2e17f7) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @2e17f7823a341c548cda3bcfd2b5d79fa9d17704 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 17:19:27 +0200
+
 kiconthemes (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
