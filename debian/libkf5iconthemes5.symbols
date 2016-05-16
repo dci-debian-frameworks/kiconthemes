@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.0 amd64
+# SymbolsHelper-Confirmed: 5.22.0 amd64 armhf i386
 libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _Z10BarIconSetRK7QStringi@Base 4.96.0
  _Z11DesktopIconRK7QStringiiRK11QStringList@Base 4.96.0
@@ -125,6 +125,7 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _ZNK10KIconTheme11defaultSizeEN11KIconLoader5GroupE@Base 4.96.0
  _ZNK10KIconTheme11descriptionEv@Base 4.96.0
  _ZNK10KIconTheme12internalNameEv@Base 4.96.0
+ _ZNK10KIconTheme14iconPathByNameERK7QStringiN11KIconLoader9MatchTypeE@Base 5.22.0
  _ZNK10KIconTheme19queryIconsByContextEiN11KIconLoader7ContextE@Base 4.96.0
  _ZNK10KIconTheme3dirEv@Base 4.96.0
  _ZNK10KIconTheme4nameEv@Base 4.96.0
