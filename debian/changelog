@@ -1,11 +1,10 @@
-kiconthemes (5.22.0-1~2.gbpe86c25) UNRELEASED; urgency=medium
+kiconthemes (5.22.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @e86c250e4fdb61edc9449a94930e878d6a069ada **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 16 May 2016 17:52:05 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 May 2016 17:21:15 +0200
 
 kiconthemes (5.21.0-1) experimental; urgency=medium
 
