@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.22.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.23.0 amd64 armhf i386
 libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _Z10BarIconSetRK7QStringi@Base 4.96.0
  _Z11DesktopIconRK7QStringiiRK11QStringList@Base 4.96.0
@@ -13,6 +13,7 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _Z9SmallIconRK7QStringiiRK11QStringList@Base 4.96.0
  _ZN10KIconTheme11reconfigureEv@Base 4.96.0
  _ZN10KIconTheme16defaultThemeNameEv@Base 4.96.0
+ _ZN10KIconTheme18forceThemeForTestsERK7QString@Base 5.23.0
  _ZN10KIconTheme24assignIconsToContextMenuENS_12ContextMenusE5QListIP7QActionE@Base 4.96.0
  _ZN10KIconTheme4listEv@Base 4.96.0
  _ZN10KIconTheme7currentEv@Base 4.96.0
@@ -126,6 +127,7 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _ZNK10KIconTheme11descriptionEv@Base 4.96.0
  _ZNK10KIconTheme12internalNameEv@Base 4.96.0
  _ZNK10KIconTheme14iconPathByNameERK7QStringiN11KIconLoader9MatchTypeE@Base 5.22.0
+ _ZNK10KIconTheme18followsColorSchemeEv@Base 5.23.0
  _ZNK10KIconTheme19queryIconsByContextEiN11KIconLoader7ContextE@Base 4.96.0
  _ZNK10KIconTheme3dirEv@Base 4.96.0
  _ZNK10KIconTheme4nameEv@Base 4.96.0
@@ -177,6 +179,7 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _ZNK11KIconLoader9loadMovieERK7QStringNS_5GroupEiP7QObject@Base 4.96.0
  _ZNK11KIconLoader9moviePathERK7QStringNS_5GroupEi@Base 4.96.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 5.23.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEE5QListIT_EPKcRKS3_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZTI11KIconButton@Base 4.96.0
