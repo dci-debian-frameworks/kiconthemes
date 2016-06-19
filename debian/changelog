@@ -1,10 +1,11 @@
-kiconthemes (5.23.0-1~1.gbp2e0348) UNRELEASED; urgency=medium
+kiconthemes (5.23.0-1~2.gbp18575c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @2e0348532def723bef865442099df33a8097fe53 **
+  ** SNAPSHOT build @18575c852e6d21f4642f0900ba6fdc7e1302fcc8 **
 
   * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 23:19:32 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 19 Jun 2016 09:48:38 +0200
 
 kiconthemes (5.22.0-1) unstable; urgency=medium
 
