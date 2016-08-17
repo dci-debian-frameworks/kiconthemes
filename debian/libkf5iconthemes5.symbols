@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.23.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.25.0 amd64 armhf i386
 libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _Z10BarIconSetRK7QStringi@Base 4.96.0
  _Z11DesktopIconRK7QStringiiRK11QStringList@Base 4.96.0
@@ -11,6 +11,7 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _Z8IconSizeN11KIconLoader5GroupE@Base 4.96.0
  _Z8UserIconRK7QStringiRK11QStringList@Base 4.96.0
  _Z9SmallIconRK7QStringiiRK11QStringList@Base 4.96.0
+ _Z9uintToHexjP5QChar@Base 5.25.0
  _ZN10KIconTheme11reconfigureEv@Base 4.96.0
  _ZN10KIconTheme16defaultThemeNameEv@Base 4.96.0
  _ZN10KIconTheme18forceThemeForTestsERK7QString@Base 5.23.0
@@ -90,6 +91,7 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _ZN11KIconEffectD1Ev@Base 4.96.0
  _ZN11KIconEffectD2Ev@Base 4.96.0
  _ZN11KIconEngine10actualSizeERK5QSizeN5QIcon4ModeENS3_5StateE@Base 4.96.0
+ _ZN11KIconEngine12virtual_hookEiPv@Base 5.25.0
  _ZN11KIconEngine4readER11QDataStream@Base 4.96.0
  _ZN11KIconEngine5paintEP8QPainterRK5QRectN5QIcon4ModeENS5_5StateE@Base 4.96.0
  _ZN11KIconEngine6pixmapERK5QSizeN5QIcon4ModeENS3_5StateE@Base 4.96.0
@@ -194,5 +196,6 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _ZTV11KIconDialog@Base 4.96.0
  _ZTV11KIconEngine@Base 4.96.0
  _ZTV11KIconLoader@Base 4.96.0
+ kiconloader_ms_between_checks@Base 5.25.0
  (c++)"non-virtual thunk to KIconButton::~KIconButton()@Base" 4.96.0
  (c++)"non-virtual thunk to KIconDialog::~KIconDialog()@Base" 4.96.0
