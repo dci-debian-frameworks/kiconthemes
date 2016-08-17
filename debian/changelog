@@ -1,11 +1,18 @@
-kiconthemes (5.25.0-1~1.gbp277f35) UNRELEASED; urgency=medium
+kiconthemes (5.25.0-1~2.gbpa87fec) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @a87fec108d09475272f81fc107e62ffef4a6bcb6 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @277f357726a092e91636b102d7bf231409d4a56b **
 
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 11:19:11 +0200
+  [ Maximiliano Curia ]
+  * Bump group breaks (5.25)
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:19:19 +0200
 
 kiconthemes (5.23.0-1) unstable; urgency=medium
 
