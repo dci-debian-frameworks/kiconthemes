@@ -44,14 +44,14 @@ Description: development files for kiconthemes
  are used by the iconloader but can be used by others too.
  .
  Contains development files for kiconthemes.
-Breaks: kross-dev (<< 5.26),
-        libkf5bookmarks-dev (<< 5.26),
-        libkf5kcmutils-dev (<< 5.26),
-        libkf5kdelibs4support-dev (<< 5.26),
-        libkf5khtml-dev (<< 5.26),
-        libkf5style-dev (<< 5.26),
-        libkf5textwidgets-dev (<< 5.26),
-        libkf5xmlgui-dev (<< 5.26)
+Breaks: kross-dev (<< 5.27),
+        libkf5bookmarks-dev (<< 5.27),
+        libkf5kcmutils-dev (<< 5.27),
+        libkf5kdelibs4support-dev (<< 5.27),
+        libkf5khtml-dev (<< 5.27),
+        libkf5style-dev (<< 5.27),
+        libkf5textwidgets-dev (<< 5.27),
+        libkf5xmlgui-dev (<< 5.27)
 
 Package: libkf5iconthemes5
 Architecture: any
@@ -63,28 +63,28 @@ Recommends: libkf5iconthemes-bin (= ${binary:Version})
 Description: Support for icon themes.
  Library to use/access icon themes in Qt. These classes
  are used by the iconloader but can be used by others too.
-Breaks: frameworkintegration (<< 5.26),
-        kdesignerplugin (<< 5.26),
-        libkf5bookmarks5 (<< 5.26),
-        libkf5declarative5 (<< 5.26),
-        libkf5kcmutils5 (<< 5.26),
-        libkf5kdelibs4support5 (<< 5.26),
-        libkf5khtml-bin (<< 5.26),
-        libkf5khtml5 (<< 5.26),
-        libkf5kiofilewidgets5 (<< 5.26),
-        libkf5kiowidgets5 (<< 5.26),
-        libkf5krossui5 (<< 5.26),
-        libkf5newstuff5 (<< 5.26),
-        libkf5parts5 (<< 5.26),
-        libkf5plasma5 (<< 5.26),
-        libkf5plasmaquick5 (<< 5.26),
-        libkf5style5 (<< 5.26),
-        libkf5texteditor5 (<< 5.26),
-        libkf5textwidgets5 (<< 5.26),
-        libkf5wallet-bin (<< 5.26),
-        libkf5xmlgui5 (<< 5.26),
-        plasma-framework (<< 5.26),
-        qml-module-org-kde-kquickcontrolsaddons (<< 5.26)
+Breaks: frameworkintegration (<< 5.27),
+        kdesignerplugin (<< 5.27),
+        libkf5bookmarks5 (<< 5.27),
+        libkf5declarative5 (<< 5.27),
+        libkf5kcmutils5 (<< 5.27),
+        libkf5kdelibs4support5 (<< 5.27),
+        libkf5khtml-bin (<< 5.27),
+        libkf5khtml5 (<< 5.27),
+        libkf5kiofilewidgets5 (<< 5.27),
+        libkf5kiowidgets5 (<< 5.27),
+        libkf5krossui5 (<< 5.27),
+        libkf5newstuff5 (<< 5.27),
+        libkf5parts5 (<< 5.27),
+        libkf5plasma5 (<< 5.27),
+        libkf5plasmaquick5 (<< 5.27),
+        libkf5style5 (<< 5.27),
+        libkf5texteditor5 (<< 5.27),
+        libkf5textwidgets5 (<< 5.27),
+        libkf5wallet-bin (<< 5.27),
+        libkf5xmlgui5 (<< 5.27),
+        plasma-framework (<< 5.27),
+        qml-module-org-kde-kquickcontrolsaddons (<< 5.27)
 
 Package: libkf5iconthemes-data
 Architecture: all
