@@ -1,10 +1,13 @@
-kiconthemes (5.27.0-1~1.gbp82c1aa) UNRELEASED; urgency=medium
+kiconthemes (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @82c1aae988b0d88beb3bb96b7e1d740bcc903636 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 11:19:44 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 17:03:16 +0200
 
 kiconthemes (5.26.0-1) unstable; urgency=medium
 
