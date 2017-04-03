@@ -1,6 +1,8 @@
 kiconthemes (5.28.0-2~) UNRELEASED; urgency=medium
 
-  * 
+  * Add new upstream patch:
+    Inform-QIconLoader-also-when-the-desktop-icon-theme-is-ch.patch
+  * Add new upstream patch: KIconEngine-Center-icon-in-requested-rect.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 03 Apr 2017 12:11:52 +0200
 
