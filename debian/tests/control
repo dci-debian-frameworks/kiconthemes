@@ -1,8 +1,8 @@
 Tests: testsuite
-Depends: @builddeps@, build-essential,
+Depends: @, @builddeps@, build-essential,
          xvfb, xauth, dbus (>= 1.8), openbox,
          oxygen-icon-theme
-Restrictions: rw-build-tree
+Restrictions: build-needed
 
 Tests: acc
 Depends: @, dh-acc, exuberant-ctags
