@@ -1,4 +1,4 @@
-kiconthemes (5.35.0-1~1) UNRELEASED; urgency=medium
+kiconthemes (5.36.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -7,6 +7,8 @@ kiconthemes (5.35.0-1~1) UNRELEASED; urgency=medium
   * Bump group breaks (5.35)
   * Drop upstream patches
   * Let autopkgtest take care of the build required for the test
+  * watch: Use https uris
+  * New upstream release (5.36.0).
 
   [ Raymond Wooninck ]
   * Add signing key
@@ -15,7 +17,7 @@ kiconthemes (5.35.0-1~1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * acc c++11. now used more liberally
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 11:45:22 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:44:00 +0200
 
 kiconthemes (5.28.0-2) unstable; urgency=medium
 
