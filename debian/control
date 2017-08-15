@@ -77,6 +77,7 @@ Description: Support for icon themes (documentation)
  are used by the iconloader but can be used by others too.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5iconthemes5
 Architecture: any
