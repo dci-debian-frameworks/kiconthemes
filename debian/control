@@ -5,16 +5,20 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
+               doxygen,
                extra-cmake-modules (>= 5.37.0~),
+               graphviz,
                libkf5archive-dev (>= 5.37.0~),
                libkf5configwidgets-dev (>= 5.37.0~),
                libkf5coreaddons-dev (>= 5.37.0~),
                libkf5i18n-dev (>= 5.37.0~),
                libkf5itemviews-dev (>= 5.37.0~),
                libkf5widgetsaddons-dev (>= 5.37.0~),
+               libqt5sql5-sqlite,
                libqt5svg5-dev (>= 5.7.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.7.0~)
+               qtbase5-dev (>= 5.7.0~),
+               qttools5-dev-tools (>= 5.4),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/kiconthemes
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kiconthemes.git
@@ -29,6 +33,16 @@ Description: Support for icon themes
  .
  This package contains runtime binaries.
 
+Package: libkf5iconthemes-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Support for icon themes.
+ Library to use/access icon themes in Qt. These classes
+ are used by the iconloader but can be used by others too.
+ .
+ This package contains the data files.
+
 Package: libkf5iconthemes-dev
 Section: libdevel
 Architecture: any
@@ -38,12 +52,7 @@ Depends: libkf5configwidgets-dev (>= 5.37.0~),
          libkf5itemviews-dev (>= 5.37.0~),
          libkf5widgetsaddons-dev (>= 5.37.0~),
          qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends}
-Description: development files for kiconthemes
- Library to use/access icon themes in Qt. These classes
- are used by the iconloader but can be used by others too.
- .
- Contains development files for kiconthemes.
+         ${misc:Depends},
 Breaks: kross-dev (<< 5.37),
         libkf5bookmarks-dev (<< 5.37),
         libkf5kcmutils-dev (<< 5.37),
@@ -51,18 +60,30 @@ Breaks: kross-dev (<< 5.37),
         libkf5khtml-dev (<< 5.37),
         libkf5style-dev (<< 5.37),
         libkf5textwidgets-dev (<< 5.37),
-        libkf5xmlgui-dev (<< 5.37)
+        libkf5xmlgui-dev (<< 5.37),
+Recommends: libkf5iconthemes-doc (= ${source:Version})
+Description: development files for kiconthemes
+ Library to use/access icon themes in Qt. These classes
+ are used by the iconloader but can be used by others too.
+ .
+ Contains development files for kiconthemes.
+
+Package: libkf5iconthemes-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Support for icon themes (documentation)
+ Library to use/access icon themes in Qt. These classes
+ are used by the iconloader but can be used by others too.
+ .
+ This package contains the qch documentation files.
 
 Package: libkf5iconthemes5
 Architecture: any
 Multi-Arch: same
 Depends: libkf5iconthemes-data (= ${source:Version}),
          ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: libkf5iconthemes-bin (= ${binary:Version})
-Description: Support for icon themes.
- Library to use/access icon themes in Qt. These classes
- are used by the iconloader but can be used by others too.
+         ${shlibs:Depends},
 Breaks: frameworkintegration (<< 5.28),
         kdesignerplugin (<< 5.37),
         libkf5bookmarks5 (<< 5.37),
@@ -84,14 +105,8 @@ Breaks: frameworkintegration (<< 5.28),
         libkf5wallet-bin (<< 5.37),
         libkf5xmlgui5 (<< 5.37),
         plasma-framework (<< 5.37),
-        qml-module-org-kde-kquickcontrolsaddons (<< 5.37)
-
-Package: libkf5iconthemes-data
-Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Multi-Arch: foreign
+        qml-module-org-kde-kquickcontrolsaddons (<< 5.37),
+Recommends: libkf5iconthemes-bin (= ${binary:Version})
 Description: Support for icon themes.
  Library to use/access icon themes in Qt. These classes
  are used by the iconloader but can be used by others too.
- .
- This package contains the data files.
