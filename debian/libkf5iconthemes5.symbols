@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.25.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _Z10BarIconSetRK7QStringi@Base 4.96.0
  _Z11DesktopIconRK7QStringiiRK11QStringList@Base 4.96.0
@@ -30,12 +30,6 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _ZN11KIconButton16staticMetaObjectE@Base 4.96.0
  _ZN11KIconButton17setButtonIconSizeEi@Base 4.96.0
  _ZN11KIconButton17setStrictIconSizeEb@Base 4.96.0
- _ZN11KIconButton18KIconButtonPrivate14_k_newIconNameERK7QString@Base 4.96.0
- _ZN11KIconButton18KIconButtonPrivate17_k_slotChangeIconEv@Base 4.96.0
- _ZN11KIconButton18KIconButtonPrivateC1EPS_P11KIconLoader@Base 4.96.0
- _ZN11KIconButton18KIconButtonPrivateC2EPS_P11KIconLoader@Base 4.96.0
- _ZN11KIconButton18KIconButtonPrivateD1Ev@Base 4.96.0
- _ZN11KIconButton18KIconButtonPrivateD2Ev@Base 4.96.0
  _ZN11KIconButton7setIconERK5QIcon@Base 4.96.0
  _ZN11KIconButton7setIconERK7QString@Base 4.96.0
  _ZN11KIconButton9resetIconEv@Base 4.96.0
@@ -55,18 +49,6 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _ZN11KIconDialog16staticMetaObjectE@Base 4.96.0
  _ZN11KIconDialog17setCustomLocationERK7QString@Base 4.96.0
  _ZN11KIconDialog17setStrictIconSizeEb@Base 4.96.0
- _ZN11KIconDialog18KIconDialogPrivate10setContextEN11KIconLoader7ContextE@Base 4.96.0
- _ZN11KIconDialog18KIconDialogPrivate13_k_slotBrowseEv@Base 4.96.0
- _ZN11KIconDialog18KIconDialogPrivate14_k_slotContextEi@Base 4.96.0
- _ZN11KIconDialog18KIconDialogPrivate15_k_slotFinishedEv@Base 4.96.0
- _ZN11KIconDialog18KIconDialogPrivate15_k_slotProgressEi@Base 4.96.0
- _ZN11KIconDialog18KIconDialogPrivate18_k_slotAcceptIconsEv@Base 4.96.0
- _ZN11KIconDialog18KIconDialogPrivate19_k_slotStartLoadingEi@Base 4.96.0
- _ZN11KIconDialog18KIconDialogPrivate21_k_customFileSelectedERK7QString@Base 4.96.0
- _ZN11KIconDialog18KIconDialogPrivate23_k_slotOtherIconClickedEv@Base 4.96.0
- _ZN11KIconDialog18KIconDialogPrivate24_k_slotSystemIconClickedEv@Base 4.96.0
- _ZN11KIconDialog18KIconDialogPrivate4initEv@Base 4.96.0
- _ZN11KIconDialog18KIconDialogPrivate9showIconsEv@Base 4.96.0
  _ZN11KIconDialog5setupEN11KIconLoader5GroupENS0_7ContextEbibbb@Base 4.96.0
  _ZN11KIconDialog6slotOkEv@Base 4.96.0
  _ZN11KIconDialog7getIconEN11KIconLoader5GroupENS0_7ContextEbibP7QWidgetRK7QString@Base 4.96.0
@@ -108,7 +90,9 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _ZN11KIconLoader11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN11KIconLoader11qt_metacastEPKc@Base 4.96.0
  _ZN11KIconLoader11reconfigureERK7QStringRK11QStringList@Base 4.96.0
+ _ZN11KIconLoader12resetPaletteEv@Base 5.41.0
  _ZN11KIconLoader13newIconLoaderEv@Base 4.96.0
+ _ZN11KIconLoader16setCustomPaletteERK8QPalette@Base 5.41.0
  _ZN11KIconLoader16staticMetaObjectE@Base 4.96.0
  _ZN11KIconLoader25iconLoaderSettingsChangedEv@Base 4.96.0
  _ZN11KIconLoader6globalEv@Base 4.96.0
@@ -170,6 +154,7 @@ libKF5IconThemes.so.5 libkf5iconthemes5 #MINVER#
  _ZNK11KIconLoader12drawOverlaysERK11QStringListR7QPixmapNS_5GroupEi@Base 4.96.0
  _ZNK11KIconLoader12loadAnimatedERK7QStringNS_5GroupEi@Base 4.96.0
  _ZNK11KIconLoader13alphaBlendingENS_5GroupE@Base 4.96.0
+ _ZNK11KIconLoader13customPaletteEv@Base 5.41.0
  _ZNK11KIconLoader15queryIconsByDirERK7QString@Base 4.96.0
  _ZNK11KIconLoader16loadMimeTypeIconERK7QStringNS_5GroupEiiRK11QStringListPS0_@Base 4.96.0
  _ZNK11KIconLoader18loadPixmapSequenceERK7QStringi@Base 4.96.0
